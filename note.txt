@@ -17,5 +17,5 @@ ALTER TABLE transactions
 ADD COLUMN agent_id INT(11) AFTER name;
 
 
-sudo chmod -R 775 /var/www/lucky_m_a/storage
-sudo chmod -R 775 /var/www/lucky_m_a/bootstrap/cache
+sudo chmod -R 775 /var/www/lucky_m_redis_a/storage
+sudo chmod -R 775 /var/www/lucky_m_redis_a/bootstrap/cache
